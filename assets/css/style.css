@@ -1,5 +1,23 @@
+@font-face {
+    font-family: 'MrMonstar';
+    src: url('fonts/mr-monstar-font.woff') format('woff'), url('fonts/mr-monstar-font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CounterAttack';
+    src: url('fonts/counter-attack-font.woff') format('woff'), url('fonts/counter-attack-font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header {
+    font-family: MrMonstar, sans-serif;
 }
