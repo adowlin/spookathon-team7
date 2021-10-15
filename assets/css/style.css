@@ -25,6 +25,10 @@ body, html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #0b0e3a;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -61,6 +65,7 @@ body, html {
     display: grid;
     position: relative;
     scroll-snap-align: center;
+    text-align: center;
 }
 
 .story-text {
@@ -69,6 +74,8 @@ body, html {
     align-content: center;
 }
 
-.header {
+.story-title {
     font-family: MrMonstar, sans-serif;
+    font-size: 4rem;
+    color: #c5eed1;
 }
