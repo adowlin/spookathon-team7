@@ -56,6 +56,13 @@ body, html {
 
 /* End CSS Grid Definitions */
 
+.story-page {
+    height: 100vh;
+    display: grid;
+    position: relative;
+    scroll-snap-align: center;
+}
+
 .header {
     font-family: MrMonstar, sans-serif;
 }
