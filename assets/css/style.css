@@ -146,19 +146,5 @@ body {
     opacity: 0;
 }
 
-@keyframes batAnimation {
-    from {
-        left: -20px;
-    } to {
-        left: 110%;
-    }
-}
-
-#title-page-art-bat {
-    /* animation-name: batAnimation;
-    animation-duration: 10s;
-    animation-iteration-count: infinite; */
-}
-
 
 /* End Title Page Art */
