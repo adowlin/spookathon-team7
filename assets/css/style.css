@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+:root {
+    --col-title: 197, 238, 209;
+    --col-story: 217, 247, 226;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -72,10 +77,13 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
 }
 
 .story-title {
     font-family: MrMonstar, sans-serif;
     font-size: 4rem;
-    color: #c5eed1;
+    color: rgba(var(--col-title), 1);
 }
