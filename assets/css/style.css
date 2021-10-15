@@ -33,6 +33,29 @@ body, html {
     grid-row-gap: 0px;
 }
 
+/* CSS Grid Definitions */
+#title-page {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#page-one {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#page-two {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#page-three {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+#page-four {
+    grid-area: 5 / 1 / 6 / 2;
+} 
+
+/* End CSS Grid Definitions */
+
 .header {
     font-family: MrMonstar, sans-serif;
 }
