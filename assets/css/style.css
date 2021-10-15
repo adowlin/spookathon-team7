@@ -25,6 +25,14 @@ body, html {
     scroll-behavior: smooth;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
 .header {
     font-family: MrMonstar, sans-serif;
 }
