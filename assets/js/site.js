@@ -31,7 +31,6 @@ function fadeOut(element) {
 function addBats(numBats) {
     let batSpawner = document.getElementById("title-page-art-bat-spawner");
     for(let i = 0; i < numBats; i++) {
-        let delayTime = getRandomBetweenRange(100, 5000);
         let batTop = getRandomBetweenRange(20, 200);
         let batLeft = getRandomBetweenRange(-(window.innerWidth), -10);
         console.log(`Bat: ${i} Left: ${batLeft}`);
@@ -44,20 +43,21 @@ function addBats(numBats) {
 function batFlutter() {
     let bats = document.getElementsByClassName("bat");
     for(let bat of bats){
+        // Update bat vertical position so it looks like it's flapping around.
         let batTop = parseInt(bat.style.top, 10);
-        if(Number.isNaN(batTop)) {
-            batTop = 10;
-        } else {
-            batTop += getRandomBetweenRange(-5, 5);
-        }
-        bat.style.top = batTop + "px";
-
+        batTop += getRandomBetweenRange(-5, 5);
+        
+        // Update bat left position so it moves across the screen
         let batLeft = parseInt(bat.style.left, 10);
         if(batLeft > window.innerWidth) {
-            batLeft = getRandomBetweenRange(-(window.innerWidth), -10);;
+            batLeft = getRandomBetweenRange(-(window.innerWidth), -10);
+            batTop = getRandomBetweenRange(20, 200);
         } else {
-            batLeft += 10;
+            batLeft += getRandomBetweenRange(5, 10);
         }
+
+        // Set new position on bat element
+        bat.style.top = batTop + "px";
         bat.style.left = batLeft + "px";
     }
 }
