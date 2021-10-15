@@ -146,5 +146,18 @@ body {
     opacity: 0;
 }
 
+#page-three-art-ground {
+    width: 100%;
+    bottom: -2.5%;
+    z-index: 10;
+}
+
+#page-three-art-skel-walk {
+    bottom: 5%;
+    right: 5%;
+    z-index: 10;
+    height: 50%;
+}
+
 
 /* End Title Page Art */
