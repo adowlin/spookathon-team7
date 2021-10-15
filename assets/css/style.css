@@ -24,8 +24,6 @@
 }
 
 body, html {
-    scroll-snap-type: proximity;
-    scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
 }
@@ -70,16 +68,19 @@ body {
     display: grid;
     position: relative;
     scroll-snap-align: center;
-    text-align: center;
+    
 }
 
 .story-text {
     display: grid;
-    justify-content: center;
-    align-content: center;
     font-family: CounterAttack, sans-serif;
     color: rgba(var(--col-story), 1);
     font-size: 3rem;
+    position: absolute;
+    top: 45vh;
+    z-index: 9999;
+    text-align: center;
+    width: 100%;
 }
 
 .story-title {
@@ -87,3 +88,63 @@ body {
     font-size: 4rem;
     color: rgba(var(--col-title), 1);
 }
+
+.art-container {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 100vh;
+    top: 0;
+    pointer-events: none;
+}
+
+/* Title Page Art */
+
+.art {
+    position: absolute;
+    pointer-events: none;
+}
+
+#title-page-art-ground  {
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+#title-page-art-tree {
+    bottom: 0;
+    right: -4%;
+    z-index: 10;
+}
+
+#title-page-art-moon {
+    top: 4%;
+    right: 4%;
+}
+
+#title-page-art-owl-wrapper {
+    position: absolute;
+    right: 340px;
+    bottom: 530px;
+    display: inline-block;
+    min-width: 118px;
+    min-height: 180px;
+}
+
+#title-page-art-owl {   
+    pointer-events: auto;
+}
+
+
+#title-page-art-owl-action {
+    color: white;
+    position: relative;
+    bottom: -40px;
+    z-index: 9999;
+    left: -9ch;
+    display: none;
+}
+
+
+/* End Title Page Art */
