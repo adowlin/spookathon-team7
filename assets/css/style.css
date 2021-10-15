@@ -18,6 +18,57 @@
     box-sizing: border-box;
 }
 
+body, html {
+    scroll-snap-type: proximity;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+/* CSS Grid Definitions */
+#title-page {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#page-one {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#page-two {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#page-three {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+#page-four {
+    grid-area: 5 / 1 / 6 / 2;
+} 
+
+/* End CSS Grid Definitions */
+
+.story-page {
+    height: 100vh;
+    display: grid;
+    position: relative;
+    scroll-snap-align: center;
+}
+
+.story-text {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
 .header {
     font-family: MrMonstar, sans-serif;
 }
