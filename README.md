@@ -23,7 +23,7 @@ This project was built for the Code Institute Hackathon in October 2021 by the H
 ### Aims
 
 **Site owner's goal**
-Provide a fun experience for users that visit the site and be able to follow the story smoovly.
+Provide a fun experience for users that visit the site and be able to follow the story smoothly.
 
 **External user’s goal** 
 Interact with the HTML Halloween story and be taken through an immersive journey.
