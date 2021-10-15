@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+:root {
+    --col-title: 197, 238, 209;
+    --col-story: 217, 247, 226;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +28,10 @@ body, html {
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0b0e3a;
 }
 
 .container {
@@ -61,14 +70,20 @@ body, html {
     display: grid;
     position: relative;
     scroll-snap-align: center;
+    text-align: center;
 }
 
 .story-text {
     display: grid;
     justify-content: center;
     align-content: center;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
 }
 
-.header {
+.story-title {
     font-family: MrMonstar, sans-serif;
+    font-size: 4rem;
+    color: rgba(var(--col-title), 1);
 }
