@@ -63,6 +63,12 @@ body, html {
     scroll-snap-align: center;
 }
 
+.story-text {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
 .header {
     font-family: MrMonstar, sans-serif;
 }
