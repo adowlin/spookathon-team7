@@ -144,7 +144,7 @@ Inkscape
 
 
 ### Imagery
-
+Fog overlay animation adapted from: https://github.com/WebDevSHORTS/Fog-Overlay-Animation
 
 
 ## Acknowledgements
