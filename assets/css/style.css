@@ -196,8 +196,14 @@ body {
 
 .art-container #chain2 {
     position: absolute;
-    left: -300px;
+    left: -250px;
     top: -1600px;
+}
+
+.art-container #chain3 {
+    position: absolute;
+    left: -350px;
+    top: -100px;
 }
 
 .art-container #ground-monster {
