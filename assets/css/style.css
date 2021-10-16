@@ -191,7 +191,7 @@ body {
 
 #page-three-art-ground {
     width: 100%;
-    bottom: -2.5%;
+    bottom: 0;
     z-index: 10;
 }
 
@@ -207,6 +207,11 @@ body {
     right: 5%;
     z-index: 10;
     height: 25%;
+}
+
+#page-three-art-skel-side {
+    left: 0;
+    height: 100vh;
 }
 
 /* End Page 3 Art */
@@ -279,5 +284,15 @@ body {
 @media only screen and (max-width: 465px) {
     .story-title {
         font-size: 2.75rem;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    #page-three-art-graves {
+        display: none;
+    }
+
+    #page-three-art-skel-side {
+        height: 110vh;
     }
 }
