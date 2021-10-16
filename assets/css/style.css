@@ -146,18 +146,49 @@ body {
     opacity: 0;
 }
 
+/* End Title Page Art */
+
+
+/* Page 3 Art */
+
 #page-three-art-ground {
     width: 100%;
     bottom: -2.5%;
     z-index: 10;
 }
 
-#page-three-art-skel-walk {
-    bottom: 5%;
+#page-three-art-graves {
+    width: 40%;
+    bottom: 2.5%;
     right: 5%;
     z-index: 10;
-    height: 50%;
 }
 
+#page-three-art-skel-walk {
+    bottom: 2.5%;
+    right: 5%;
+    z-index: 10;
+    height: 25%;
+}
 
-/* End Title Page Art */
+/* End Page 3 Art */
+
+/* Media Queries */
+
+@media only screen and (max-width: 465px) {
+    .story-title {
+        font-size: 3.5rem;
+    }
+
+    .story-text {
+        font-size: 2.5rem;
+        padding: 2rem;
+        margin-top: -5rem;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .story-title {
+        font-size: 2.75rem;
+    }
+}
