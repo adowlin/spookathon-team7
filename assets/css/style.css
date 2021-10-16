@@ -188,7 +188,11 @@ body {
 /* Page 4 Art */
 
 
-
+.art-container #ground-monster {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
 .art-container #monster {
     position: absolute;
