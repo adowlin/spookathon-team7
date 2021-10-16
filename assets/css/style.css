@@ -185,6 +185,16 @@ body {
 
 /* End Page 3 Art */
 
+/* Page 4 Art */
+
+
+
+
+.art-container #monster {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
 /* Fog Effect CSS */
 
