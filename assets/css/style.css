@@ -170,3 +170,25 @@ body {
     z-index: 10;
     height: 25%;
 }
+
+/* End Page 3 Art */
+
+/* Media Queries */
+
+@media only screen and (max-width: 465px) {
+    .story-title {
+        font-size: 3.5rem;
+    }
+
+    .story-text {
+        font-size: 2.5rem;
+        padding: 2rem;
+        margin-top: -5rem;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .story-title {
+        font-size: 2.75rem;
+    }
+}
