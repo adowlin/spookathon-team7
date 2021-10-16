@@ -235,7 +235,7 @@ body {
 }
 
 .fog-img-first {
-    background: url("/assets/images/fog-1.png");
+    background: url("../images/fog-1.png");
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
@@ -243,7 +243,7 @@ body {
 }
 
 .fog-img-second {
-    background: url("/assets/images/fog-2.png");
+    background: url("../images/fog-1.png");
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
