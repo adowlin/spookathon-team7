@@ -146,6 +146,27 @@ body {
     opacity: 0;
 }
 
+#page-two-art-ground {
+    width: 100%;
+    bottom: -2.5%;
+    z-index: 10;
+}
+
+#page-two-art-witch_and_cat {
+    bottom: 1%;
+    right: 1%;
+    z-index: 10;
+    height: 25%;
+}
+
+#page-two-art-new_moon {
+    top: 1%;
+    left: 1%;
+    z-index: 10;
+    height: 20%;
+}
+
+
 #page-three-art-ground {
     width: 100%;
     bottom: -2.5%;
