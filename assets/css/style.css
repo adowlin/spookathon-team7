@@ -212,13 +212,89 @@ body {
     bottom: 0;
 }
 
-.art-container #monster {
+/* .art-container #monster {
     position: absolute;
     right: 0;
     bottom: 0;
-}
+} */
 
 /* end of art page 4 */
+
+/* page 4 media queries */
+
+
+/* end of page 4 media queries */
+@media only screen and (max-width: 768px) {
+    #chain1 {
+        display: none;
+    }
+    #chain2 {
+        display: none;
+    }
+    #chain3 {
+        display: none;
+    }
+    #ground-monster {
+        display: none;
+    }
+}
+/* positioning of the monster depending on the screen size*/
+
+@media only screen and (max-width: 320px){
+    .art-container #monster {
+        position: absolute;
+        right: -130px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 321px){
+    .art-container #monster {
+        position: absolute;
+        right: -90px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 376px){
+    .art-container #monster {
+        position: absolute;
+        right: -50px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 436px) {
+    .art-container #monster {
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 518px) {
+    .art-container #monster {
+        position: absolute;
+        right: 50px;
+        top: 0;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    .art-container #monster {
+        position: absolute;
+        right: 150px;
+        top: 0;
+    }
+} */
+
+@media only screen and (min-width: 768px) {
+    .art-container #monster {
+        position: absolute;
+        right: 0;
+        top: 300px;
+    }
+}
 
 /* Fog Effect CSS */
 
@@ -270,7 +346,7 @@ body {
 }
 
 /* End Fog */
->>>>>>> 0dcabfb012579479a9f11eec8d066d0c20c5bbfb
+
 
 /* Media Queries */
 
