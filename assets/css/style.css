@@ -89,6 +89,18 @@ body {
     color: rgba(var(--col-title), 1);
 }
 
+.story-page>.story-text {
+    text-shadow:
+        0.04rem 0 black,
+        0 0.04rem black,
+        -0.04rem 0 black,
+        0 -0.04rem black,
+        -0.04rem -0.04rem black,
+        -0.04rem 0.04rem black,
+        0.04rem -0.04rem black,
+        0.04rem 0.04rem black;
+}
+
 .art-container {
     position: relative;
     overflow-x: hidden;
