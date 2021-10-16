@@ -188,6 +188,18 @@ body {
 /* Page 4 Art */
 
 
+.art-container #chain1 {
+    position: absolute;
+    left: -450px;
+    top: -150px;
+}
+
+.art-container #chain2 {
+    position: absolute;
+    left: -300px;
+    top: -1600px;
+}
+
 .art-container #ground-monster {
     position: absolute;
     right: 0;
@@ -199,6 +211,8 @@ body {
     right: 0;
     bottom: 0;
 }
+
+/* end of art page 4 */
 
 /* Fog Effect CSS */
 
