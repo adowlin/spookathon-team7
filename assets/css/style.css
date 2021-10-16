@@ -186,6 +186,57 @@ body {
 /* End Page 3 Art */
 
 
+/* Fog Effect CSS */
+
+.fog {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.fog-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.fog-img {
+    position: absolute;
+    height: 100vh;
+    width: 300vw;
+    z-index: 2;
+}
+
+.fog-img-first {
+    background: url("/assets/images/fog-1.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;
+    animation: marquee 60s linear infinite;
+}
+
+.fog-img-second {
+    background: url("/assets/images/fog-2.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-200vw, 0, 0);
+    }
+}
+
+/* End Fog */
+>>>>>>> 0dcabfb012579479a9f11eec8d066d0c20c5bbfb
 
 /* Media Queries */
 
