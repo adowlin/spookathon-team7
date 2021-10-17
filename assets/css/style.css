@@ -110,19 +110,17 @@ body {
     pointer-events: none;
 }
 
-/* Title Page Art */
-
 .art {
     position: absolute;
     pointer-events: none;
 }
 
+/* Title Page Art */
 #title-page-art-ground  {
     width: 100%;
     bottom: 0;
-    z-index: 10;
+    z-index: 5000;
 }
-
 
 #title-page-art-tree {
     bottom: 0;
@@ -192,7 +190,7 @@ body {
 #page-three-art-ground {
     width: 100%;
     bottom: 0;
-    z-index: 10;
+    z-index: 9000;
 }
 
 #page-three-art-graves {
@@ -223,6 +221,7 @@ body {
     height: 100vh;
     width: 100%;
     pointer-events: none;
+    z-index: 2000;
 }
 
 .fog-container {
@@ -230,14 +229,13 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: 1;
+    
 }
 
 .fog-img {
     position: absolute;
     height: 100vh;
     width: 300vw;
-    z-index: 2;
 }
 
 .fog-img-first {
@@ -246,6 +244,7 @@ body {
     background-size: contain;
     background-position: center;
     animation: marquee 60s linear infinite;
+    -webkit-animation: marquee 60s linear infinite;
 }
 
 .fog-img-second {
