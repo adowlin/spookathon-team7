@@ -110,19 +110,22 @@ body {
     pointer-events: none;
 }
 
-/* Title Page Art */
-
 .art {
     position: absolute;
     pointer-events: none;
 }
 
-#title-page-art-ground  {
+/* All Pages Art */
+
+#art-ground  {
     width: 100%;
     bottom: 0;
-    z-index: 10;
+    z-index: 5000;
 }
 
+/* End All Pages Art */
+
+/* Title Page Art */
 
 #title-page-art-tree {
     bottom: 0;
@@ -148,7 +151,6 @@ body {
     pointer-events: auto;
 }
 
-
 #title-page-art-owl-action {
     color: white;
     position: relative;
@@ -161,12 +163,6 @@ body {
 /* End Title Page Art */
 
 /* Page 1 Art */
-
-#page-one-art-ground {
-    width: 100%;
-    bottom: 0;
-    z-index: 10;
-}
 
 #page-one-art-witch {
     width: 40%;
@@ -193,38 +189,23 @@ body {
 
 /* Page 2 Art */
 
-#page-two-art-ground {
-    width: 100%;
-    bottom: -2.5%;
-    z-index: 10;
-}
-
 #page-two-art-witch_and_cat {
     bottom: 1%;
-    right: 1%;
+    right: 0;
     z-index: 10;
     height: 25%;
 }
 
 #page-two-art-new_moon {
-    top: 1%;
-    left: 1%;
+    bottom: 5%;
+    left: 10%;
     z-index: 10;
     height: 20%;
 }
 
 /* End of Page 2 Art */
 
-
-
 /* Page 3 Art */
-
-
-#page-three-art-ground {
-    width: 100%;
-    bottom: 0;
-    z-index: 10;
-}
 
 #page-three-art-graves {
     width: 40%;
@@ -254,6 +235,7 @@ body {
     height: 100vh;
     width: 100%;
     pointer-events: none;
+    z-index: 2000;
 }
 
 .fog-container {
@@ -261,14 +243,13 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: 1;
+    
 }
 
 .fog-img {
     position: absolute;
     height: 100vh;
     width: 300vw;
-    z-index: 2;
 }
 
 .fog-img-first {
@@ -277,6 +258,7 @@ body {
     background-size: contain;
     background-position: center;
     animation: marquee 60s linear infinite;
+    -webkit-animation: marquee 60s linear infinite;
 }
 
 .fog-img-second {
@@ -337,7 +319,6 @@ body {
     -moz-transform: translateY(100%);
     -ms-transform: translateY(100%);
     -o-transform: translateY(100%);
-
 }
 
 .slide-up.appear {
@@ -351,4 +332,29 @@ body {
     -moz-transition: transform 800ms ease-in;
     -ms-transition: transform 800ms ease-in;
     -o-transition: transform 800ms ease-in;
+}
+
+.move-left {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.move-left.appear {
+    animation: moveLeftAnimation 6000ms both ease-in;
+    -webkit-animation: moveLeftAnimation 6000ms both ease-in;
+}
+
+@keyframes moveLeftAnimation {
+    0% {
+    }
+    100% {
+        transform: translateX(-100vw);
+        -webkit-transform: translateX(-100vw);
+        -moz-transform: translateX(-100vw);
+        -ms-transform: translateX(-100vw);
+        -o-transform: translateX(-100vw);
+    }
 }
