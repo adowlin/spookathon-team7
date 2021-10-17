@@ -52,10 +52,6 @@ Please find the wireframes for the project below.
 ![index_html_layout](https://user-images.githubusercontent.com/65243328/137497378-7265d2f1-ab8d-4646-9661-6e61e24d607a.png)
 
 
-
-
-
-
 ### Surface
 
 
@@ -121,7 +117,12 @@ Page4: Monster, chains, can re-use my bats
 
 
 
+<<<<<<< HEAD
+## Languages
+
+=======
 **Languages**
+>>>>>>> 60f256be589230bdf3e26aca8dd49f7067c46de5
 • HTML
 • CSS
 • Javascript
@@ -184,7 +185,7 @@ The website was deployed to Github pages via the following steps.
 
 
 ### Imagery
-Fog overlay animation adapted from: https://github.com/WebDevSHORTS/Fog-Overlay-Animation
+Fog overlay animation adapted from [here](https://github.com/WebDevSHORTS/Fog-Overlay-Animation)
 
 
 ## Acknowledgements
