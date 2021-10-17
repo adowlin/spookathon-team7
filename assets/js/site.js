@@ -87,16 +87,25 @@ function witchAnimate() {
 }
 
 // Function for "Begin Story" audio
-function beginAudio() {
+function laughAudio() {
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/evil-male-horror-laugh-7/)
     let audioLaugh = new Audio("assets/audio/evil-laugh.mp3");
     audioLaugh.play();
+}
+
+// Function for page 2 moon click audio
+function moonAudio() {
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/werewolf-howls-distant-1/)
+    let audioHowl = new Audio("assets/audio/werewolf-howl.mp3");
+    audioHowl.play();
 }
 
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
     document.getElementById("title-page-art-owl").addEventListener("click", owlAction, false);
+    document.getElementById("title-page-button").addEventListener("click", laughAudio);
     document.getElementById("page-one-art-witch").addEventListener("click", witchAnimate);
-    document.getElementById("title-page-button").addEventListener("click", beginAudio);
+    document.getElementById("page-two-art-new_moon").addEventListener("click", moonAudio);
     addBats(3);
     setInterval(batFlutter, 50);
     
