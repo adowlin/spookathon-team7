@@ -81,12 +81,14 @@ body {
     z-index: 9999;
     text-align: center;
     width: 100%;
+    pointer-events: none;
 }
 
 .story-title {
     font-family: MrMonstar, sans-serif;
     font-size: 4rem;
     color: rgba(var(--col-title), 1);
+    pointer-events: none;
 }
 
 .story-page>.story-text {
