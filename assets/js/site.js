@@ -100,6 +100,13 @@ function moonAudio() {
     audioHowl.play();
 }
 
+// Function for page 3 text mouseover audio
+function textAudio() {
+    // Play audio on click. Sound effect obtained from https://www.freesoundeffects.com/free-track/haunting-466386/
+    let audioHaunting = new Audio("assets/audio/haunting.mp3");
+    audioHaunting.play();
+}
+
 // Function for back to top click audio
 function endAudio() {
     // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/)
@@ -113,6 +120,7 @@ window.addEventListener('load',function(){
     document.getElementById("title-page-button").addEventListener("click", laughAudio);
     document.getElementById("page-one-art-witch").addEventListener("click", witchAnimate);
     document.getElementById("page-two-art-new_moon").addEventListener("click", moonAudio);
+    document.getElementById("page-three-text").addEventListener("mouseover", textAudio);
     document.getElementById("page-four-button").addEventListener("click", endAudio);
     addBats(3);
     setInterval(batFlutter, 50);

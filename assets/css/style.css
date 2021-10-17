@@ -239,6 +239,10 @@ body {
 
 /* Page 3 Art */
 
+#page-three-text {
+    pointer-events: auto;
+}
+
 #page-three-art-sky,
 #page-three-art-graves {
     width: 40%;
