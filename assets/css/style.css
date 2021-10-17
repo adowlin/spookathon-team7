@@ -258,16 +258,17 @@ body {
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
-    animation: marquee 60s linear infinite;
-    -webkit-animation: marquee 60s linear infinite;
+    animation: marquee 120s linear infinite;
+    -webkit-animation: marquee 120s linear infinite;
 }
 
 .fog-img-second {
-    background: url("../images/fog-1.png");
+    background: url("../images/fog-2.png");
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
-    animation: marquee 30s linear infinite;
+    animation: marquee 90s linear infinite;
+    -webkit-animation: marquee 90s linear infinite;
 }
 
 @keyframes marquee {
