@@ -63,11 +63,13 @@ Please find the wireframes for the project below.
 
 The following colours have been used in the creation of the site.
 
-![colour pallette](/workspace/spookathon-team7/readme-assets/coolors.jpg)
+![colour pallette](https://github.com/adowlin/spookathon-team7/blob/main/readme-assets/colorpalette.png?raw=true)
 
-- #ADD8E6 - Navy Blue - as the main background colour and to depict the night sky
+- #0B0E3A - Navy Blue - as the main background colour and to depict the night sky
 
-- #00008B - Light Blue - used for the font text - contrasts well against the background colour to enhance readability for the user.
+- #C5EED1 - Light green - used for the header font text and to depict slime - contrasts well against the background colour to enhance readability for the user.
+
+- #D9F7E2 - Light green - used for the story font text and to depict slime - contrasts well against the background colour to enhance readability for the user.
 
 - #0000 - Black - used for the vector images to portray shadows. 
 
