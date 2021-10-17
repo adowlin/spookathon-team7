@@ -121,10 +121,10 @@ $(document).ready(function() {
         $("#fog-above-monster").fadeIn(2000);
     });
 
-    $("#monster").mouseenter(function(){
-        // $(this).css({left: 0})
-        $(this).addClass("test");
-    });
+    // $("#monster").mouseenter(function(){
+    //     // $(this).css({left: 0})
+    //     $(this).addClass("test");
+    // });
 
 
     // position: absolute;
