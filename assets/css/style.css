@@ -104,7 +104,7 @@ body {
 .art-container {
     position: relative;
     overflow-x: hidden;
-    overflow-y: visible;
+    overflow-y: hidden;
     height: 100vh;
     top: 0;
     pointer-events: none;
@@ -246,6 +246,7 @@ body {
     position: relative;
     height: 100vh;
     width: 100%;
+    pointer-events: none;
 }
 
 .fog-container {
@@ -319,4 +320,28 @@ body {
     #page-three-art-skel-side {
         height: 110vh;
     }
+}
+
+
+/* Animation classes */
+.slide-up {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+
+}
+
+.slide-up.appear {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transition: transform 800ms ease-in;
+    -webkit-transition: transform 800ms ease-in;
+    -moz-transition: transform 800ms ease-in;
+    -ms-transition: transform 800ms ease-in;
+    -o-transition: transform 800ms ease-in;
 }
