@@ -138,16 +138,15 @@ $(document).ready(function() {
         $("#fog-above-monster").fadeIn(2000);
     });
 
-    $("#monster").mouseenter(function(){
+    $("#monster").mouseleave(function(){
         // $(this).css({left: 0})
-        $(this).addClass("test");
+        $(this).addClass("make-biger");
     });
 
-
-    // position: absolute;
-    // right: 0;
-    // top: 400px;
-
+    $("#monster").mouseenter(function(){
+        // $(this).css({left: 0})
+        $(this).removeClass("make-biger");
+    });
 
     
 });
