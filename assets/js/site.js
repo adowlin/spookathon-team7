@@ -73,7 +73,7 @@ function batFlutter() {
 
 function witchAnimate() {
     let witch = document.getElementById("page-one-art-witch");
-    witch.classList.add("move-right");
+    witch.classList.toggle("move-right");
 }
 
 // Run functions when the page has loaded.
