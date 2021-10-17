@@ -291,11 +291,12 @@ body {
 
 /* base postion */
 
-/* .art-container #monster {
+.art-container #monster {
     position: absolute;
     right: 0;
     top: 300px;
-} */
+    pointer-events: auto;
+}
 .test {
     background-color: red;
 }

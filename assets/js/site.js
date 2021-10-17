@@ -10,6 +10,9 @@ function getRandomBetweenRange(min, max) {
 // On click action for owl on title page
 function owlAction() {
     let actionElement = document.getElementById("title-page-art-owl-action");
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/owl-hoot-nighttime-1/) 
+    let audioHoot = new Audio("assets/audio/owlhoot.mp3");
+    audioHoot.play();
     // Set text opacity to 1 so it's visible
     actionElement.style.opacity = "1";
     // Set text to opacity 0 after 2s
@@ -71,15 +74,29 @@ function batFlutter() {
     }
 }
 
+// Function to add CCS animation class to witch on page 1
 function witchAnimate() {
     let witch = document.getElementById("page-one-art-witch");
+    // Audio credit: https://www.freesoundeffects.com/free-track/cackle3-466439/
+    let audioCackle = new Audio("assets/audio/cackle3.mp3");
     witch.classList.toggle("move-right");
+    // Play audio on click if animation is also triggered
+    if (witch.classList.contains("move-right")) {
+        audioCackle.play();
+    }
+}
+
+// Function for "Begin Story" audio
+function beginAudio() {
+    let audioLaugh = new Audio("assets/audio/evil-laugh.mp3");
+    audioLaugh.play();
 }
 
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
     document.getElementById("title-page-art-owl").addEventListener("click", owlAction, false);
     document.getElementById("page-one-art-witch").addEventListener("click", witchAnimate);
+    document.getElementById("title-page-button").addEventListener("click", beginAudio);
     addBats(3);
     setInterval(batFlutter, 50);
     
@@ -121,10 +138,10 @@ $(document).ready(function() {
         $("#fog-above-monster").fadeIn(2000);
     });
 
-    // $("#monster").mouseenter(function(){
-    //     // $(this).css({left: 0})
-    //     $(this).addClass("test");
-    // });
+    $("#monster").mouseenter(function(){
+        // $(this).css({left: 0})
+        $(this).addClass("test");
+    });
 
 
     // position: absolute;
