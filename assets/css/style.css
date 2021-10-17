@@ -168,6 +168,13 @@ body {
     z-index: 10;
 }
 
+#page-one-art-witch {
+    width: 40%;
+    height: 35vh;
+    padding-top: 2rem;
+    z-index: 10;
+}
+
 #page-one-art-house {
     width: 50%;
     bottom: 0;
