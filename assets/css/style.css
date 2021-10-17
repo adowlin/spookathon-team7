@@ -231,6 +231,117 @@ body {
 
 /* End Page 3 Art */
 
+/* Page 4 Art */
+
+
+.art-container #chain1 {
+    position: absolute;
+    left: -450px;
+    top: -150px;
+}
+
+.art-container #chain2 {
+    position: absolute;
+    left: -250px;
+    top: -1600px;
+}
+
+.art-container #chain3 {
+    position: absolute;
+    left: -350px;
+    top: -100px;
+}
+
+.art-container #ground-monster {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* .art-container #monster {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
+
+/* end of art page 4 */
+
+/* page 4 media queries */
+
+
+/* end of page 4 media queries */
+@media only screen and (max-width: 768px) {
+    #chain1 {
+        display: none;
+    }
+    #chain2 {
+        display: none;
+    }
+    #chain3 {
+        display: none;
+    }
+    #ground-monster {
+        display: none;
+    }
+}
+/* positioning of the monster depending on the screen size*/
+
+@media only screen and (max-width: 320px){
+    .art-container #monster {
+        position: absolute;
+        right: -130px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 321px){
+    .art-container #monster {
+        position: absolute;
+        right: -90px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 376px){
+    .art-container #monster {
+        position: absolute;
+        right: -50px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 436px) {
+    .art-container #monster {
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 518px) {
+    .art-container #monster {
+        position: absolute;
+        right: 50px;
+        top: 0;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    .art-container #monster {
+        position: absolute;
+        right: 150px;
+        top: 0;
+    }
+} */
+
+@media only screen and (min-width: 768px) {
+    .art-container #monster {
+        position: absolute;
+        right: 0;
+        top: 300px;
+    }
+}
+
 /* Fog Effect CSS */
 
 .fog {
@@ -284,6 +395,7 @@ body {
 }
 
 /* End Fog */
+
 
 /* Media Queries */
 
