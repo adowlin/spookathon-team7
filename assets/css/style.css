@@ -462,3 +462,7 @@ body {
         -o-transform: translateX(-100vw);
     }
 }
+
+.bg-red {
+    background-color: red;
+}

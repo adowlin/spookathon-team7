@@ -104,3 +104,11 @@ const actionOnScroll = new IntersectionObserver(function(entries, actionOnScroll
         }
     })
 }, options);
+
+$(document).ready(function() {
+    $("body").addClass("bg-red");
+
+
+
+    
+});

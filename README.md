@@ -120,12 +120,15 @@ Page4: Monster, chains, can re-use my bats
 * [adobe spark](https://spark.adobe.com/sp/)
 
 
+
 **Languages**
 • HTML
 • CSS
 • Javascript
 
 ## Libraries and Frameworks
+
+* Jquery
 
 
 **Integrations**
