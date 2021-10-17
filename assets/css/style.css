@@ -81,12 +81,14 @@ body {
     z-index: 9999;
     text-align: center;
     width: 100%;
+    pointer-events: none;
 }
 
 .story-title {
     font-family: MrMonstar, sans-serif;
     font-size: 4rem;
     color: rgba(var(--col-title), 1);
+    pointer-events: none;
 }
 
 .story-page>.story-text {
@@ -104,25 +106,28 @@ body {
 .art-container {
     position: relative;
     overflow-x: hidden;
-    overflow-y: visible;
+    overflow-y: hidden;
     height: 100vh;
     top: 0;
     pointer-events: none;
 }
-
-/* Title Page Art */
 
 .art {
     position: absolute;
     pointer-events: none;
 }
 
-#title-page-art-ground  {
+/* All Pages Art */
+
+#art-ground  {
     width: 100%;
     bottom: 0;
-    z-index: 10;
+    z-index: 5000;
 }
 
+/* End All Pages Art */
+
+/* Title Page Art */
 
 #title-page-art-tree {
     bottom: 0;
@@ -148,7 +153,6 @@ body {
     pointer-events: auto;
 }
 
-
 #title-page-art-owl-action {
     color: white;
     position: relative;
@@ -160,41 +164,52 @@ body {
 
 /* End Title Page Art */
 
-/* Page 2 Art */
+/* Page 1 Art */
 
-#page-two-art-ground {
-    width: 100%;
-    bottom: -2.5%;
+#page-one-art-witch {
+    width: 40%;
+    height: 35vh;
+    padding-top: 2rem;
     z-index: 10;
 }
 
+#page-one-art-house {
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#page-one-art-corn {
+    width: 30%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* End Page 1 Art */
+
+/* Page 2 Art */
+
 #page-two-art-witch_and_cat {
     bottom: 1%;
-    right: 1%;
+    right: 0;
     z-index: 10;
     height: 25%;
 }
 
 #page-two-art-new_moon {
-    top: 1%;
-    left: 1%;
+    bottom: 5%;
+    left: 10%;
     z-index: 10;
     height: 20%;
 }
 
 /* End of Page 2 Art */
 
-
-
 /* Page 3 Art */
 
-
-#page-three-art-ground {
-    width: 100%;
-    bottom: 0;
-    z-index: 10;
-}
-
+#page-three-art-sky,
 #page-three-art-graves {
     width: 40%;
     bottom: 2.5%;
@@ -333,6 +348,8 @@ body {
     position: relative;
     height: 100vh;
     width: 100%;
+    pointer-events: none;
+    z-index: 2000;
 }
 
 .fog-container {
@@ -340,14 +357,13 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: 1;
+    pointer-events: none;
 }
 
 .fog-img {
     position: absolute;
     height: 100vh;
     width: 300vw;
-    z-index: 2;
 }
 
 .fog-img-first {
@@ -355,15 +371,17 @@ body {
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
-    animation: marquee 60s linear infinite;
+    animation: marquee 120s linear infinite;
+    -webkit-animation: marquee 120s linear infinite;
 }
 
 .fog-img-second {
-    background: url("../images/fog-1.png");
+    background: url("../images/fog-2.png");
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
-    animation: marquee 30s linear infinite;
+    animation: marquee 90s linear infinite;
+    -webkit-animation: marquee 90s linear infinite;
 }
 
 @keyframes marquee {
@@ -406,5 +424,53 @@ body {
 
     #page-three-art-skel-side {
         height: 110vh;
+    }
+}
+
+
+/* Animation classes */
+.slide-up {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+
+.slide-up.appear {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transition: transform 800ms ease-in;
+    -webkit-transition: transform 800ms ease-in;
+    -moz-transition: transform 800ms ease-in;
+    -ms-transition: transform 800ms ease-in;
+    -o-transition: transform 800ms ease-in;
+}
+
+.move-left {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.move-left.appear {
+    animation: moveLeftAnimation 6000ms both ease-in;
+    -webkit-animation: moveLeftAnimation 6000ms both ease-in;
+}
+
+@keyframes moveLeftAnimation {
+    0% {
+    }
+    100% {
+        transform: translateX(-100vw);
+        -webkit-transform: translateX(-100vw);
+        -moz-transform: translateX(-100vw);
+        -ms-transform: translateX(-100vw);
+        -o-transform: translateX(-100vw);
     }
 }
