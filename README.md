@@ -1,7 +1,7 @@
 # Halloween Night When The Witches Run
 This project was built for the Code Institute Hackathon in October 2021 by the Horrifying Terrible Monster Lurkers (HTML) team.
 
-
+Please [click here](https://adowlin.github.io/spookathon-team7/) to view the deployed site.
 
 
 
@@ -12,9 +12,9 @@ This project was built for the Code Institute Hackathon in October 2021 by the H
 - [Resources](#resources)
 - [Testing](#testing)
 - [Problems and solutions](#problems-and-solutions)
+- [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
-
 
 
 
@@ -112,21 +112,27 @@ https://inkscape.org/
 • Javascript
 
 ## Libraries and Frameworks
-https://inkscape.org/
+
 
 **Integrations**
 
 
 **IDE, Version control, Repository storage**
 
-• Gitpod
-• Github
+[Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+
+[GitPod](https://gitpod.io/) - Workspace IDE.
+
+[GitHub](https://github.com/) - Hosting service used to manage my Git repositories.
+
 
 ## Resources
 
 The following resources have been used within the project.
 
+[Canva](https://www.canva.com/) was used to create some of the artwork.
 
+[Inkscape](https://inkscape.org/) - a free and open-source vector graphics editor used to create vector images.
 
 ## Testing
 
@@ -136,6 +142,16 @@ The following resources have been used within the project.
 
 ### Design 
 Inkscape
+
+## Deployment 
+
+The website was deployed to Github pages via the following steps.
+1. Log in to Github and locate the websites repository.
+2. Under the repository name click on settings on the top right of the menu.
+3. Under the source section select the dropdown 'None' and Master branch.
+4. The page will automatically refresh.
+5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
 
 ## Credits
 
