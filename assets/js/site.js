@@ -105,6 +105,8 @@ const actionOnScroll = new IntersectionObserver(function(entries, actionOnScroll
     })
 }, options);
 
+// page 4 animations (JQuery)
+
 $(document).ready(function() {
     
     $("#page-four").mouseenter(function() {
@@ -113,7 +115,7 @@ $(document).ready(function() {
         $("#fog-above-monster").fadeIn(2000);
     });
 
-    $("#monster").click(function(){
+    $("#monster").mouseenter(function(){
         // $(this).css({left: 0})
         $(this).addClass("test");
     });
