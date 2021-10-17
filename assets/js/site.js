@@ -110,3 +110,27 @@ const actionOnScroll = new IntersectionObserver(function(entries, actionOnScroll
         }
     })
 }, options);
+
+// page 4 animations (JQuery)
+
+$(document).ready(function() {
+    
+    $("#page-four").mouseenter(function() {
+        $("#fog-above-monster").fadeOut(5000);
+    }).mouseleave(function() {
+        $("#fog-above-monster").fadeIn(2000);
+    });
+
+    // $("#monster").mouseenter(function(){
+    //     // $(this).css({left: 0})
+    //     $(this).addClass("test");
+    // });
+
+
+    // position: absolute;
+    // right: 0;
+    // top: 400px;
+
+
+    
+});

@@ -287,12 +287,23 @@ body {
 }
 
 
+/* classess to make Monster move */
+
+/* base postion */
+
+/* .art-container #monster {
+    position: absolute;
+    right: 0;
+    top: 300px;
+} */
+.test {
+    background-color: red;
+}
+
 /* end of art page 4 */
 
 /* page 4 media queries */
 
-
-/* end of page 4 media queries */
 @media only screen and (max-width: 768px) {
     #chain1 {
         display: none;
@@ -307,6 +318,8 @@ body {
         display: none;
     }
 }
+
+
 /* positioning of the monster depending on the screen size*/
 
 @media only screen and (max-width: 320px){
@@ -354,9 +367,11 @@ body {
     .art-container #monster {
         position: absolute;
         right: 0;
-        top: 300px;
+        top: 400px;
     }
 }
+
+/* end of page 4 media queries */
 
 /* Fog Effect CSS */
 
