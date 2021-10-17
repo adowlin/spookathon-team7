@@ -1,4 +1,7 @@
 # Halloween Night When The Witches Run
+
+![device template](https://user-images.githubusercontent.com/65243328/137595051-4e689f4b-e633-4c37-acbc-61fe6c90f2e4.png)
+
 This project was built for the Code Institute Hackathon in October 2021 by the Horrifying Terrible Monster Lurkers (HTML) team.
 
 Please [click here](https://adowlin.github.io/spookathon-team7/) to view the deployed site.
@@ -48,7 +51,7 @@ As a user I want to be able to: Interact with the HTML Halloween story and be ta
 Please find the wireframes for the project below. 
 ![index_html_layout](https://user-images.githubusercontent.com/65243328/137497378-7265d2f1-ab8d-4646-9661-6e61e24d607a.png)
 
-![device template](https://user-images.githubusercontent.com/65243328/137595051-4e689f4b-e633-4c37-acbc-61fe6c90f2e4.png)
+
 
 
 
@@ -57,9 +60,16 @@ Please find the wireframes for the project below.
 
 
 **Colours**
-![darkblue](https://user-images.githubusercontent.com/65243328/137500381-fe827910-0969-4516-b33c-d7f7b74cfb36.JPG)
-![lightblue](https://user-images.githubusercontent.com/65243328/137500395-a7110d5c-3514-49dd-b6a7-826563f82e6b.JPG)
-![white](https://user-images.githubusercontent.com/65243328/137595371-00a5c8b8-a0aa-476c-a890-c917cf4f19ad.JPG)
+
+The following colours have been used in the creation of the site.
+
+![colour pallette](/workspace/spookathon-team7/readme-assets/coolors.jpg)
+
+- #ADD8E6 - Navy Blue - as the main background colour and to depict the night sky
+
+- #00008B - Light Blue - used for the font text - contrasts well against the background colour to enhance readability for the user.
+
+- #0000 - Black - used for the vector images to portray shadows. 
 
 
 **Typography**
