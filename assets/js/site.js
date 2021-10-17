@@ -71,9 +71,15 @@ function batFlutter() {
     }
 }
 
+function witchAnimate() {
+    let witch = document.getElementById("page-one-art-witch");
+    witch.classList.toggle("move-right");
+}
+
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
     document.getElementById("title-page-art-owl").addEventListener("click", owlAction, false);
+    document.getElementById("page-one-art-witch").addEventListener("click", witchAnimate);
     addBats(3);
     setInterval(batFlutter, 50);
     
