@@ -76,7 +76,32 @@ window.addEventListener('load',function(){
     document.getElementById("title-page-art-owl").addEventListener("click", owlAction, false);
     addBats(3);
     setInterval(batFlutter, 50);
+    slideUp.forEach(slider => {
+        slideUpOnScroll.observe(slider);
+    })
 });
 
+// Intersection Observers
+const slideUp = document.querySelectorAll('.slide-up');
+
+// Observer options
+const options = {
+    root: null,
+    // Section needs to be 100% on screen before triggering
+    threshold: 0,
+    //rootMargin: "0px 0px -500px 0px"
+};
+
+const slideUpOnScroll = new IntersectionObserver(function(entries, slideUpOnScroll) {
+    entries.forEach(entry => {
+        console.log(entry.target, entry.isIntersecting);
+        if(!entry.isIntersecting) {
+            return;
+        } else {
+            entry.target.classList.add('appear');
+            slideUpOnScroll.unobserve(entry.target);
+        }
+    })
+}, options);
 
 
