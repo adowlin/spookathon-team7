@@ -160,6 +160,30 @@ body {
 
 /* End Title Page Art */
 
+/* Page 1 Art */
+
+#page-one-art-ground {
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+#page-one-art-house {
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#page-one-art-corn {
+    width: 30%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* End Page 1 Art */
+
 /* Page 2 Art */
 
 #page-two-art-ground {
