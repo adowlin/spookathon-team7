@@ -146,7 +146,6 @@ body {
     pointer-events: auto;
 }
 
-
 #title-page-art-owl-action {
     color: white;
     position: relative;
@@ -168,24 +167,21 @@ body {
 
 #page-two-art-witch_and_cat {
     bottom: 1%;
-    right: 1%;
+    right: 100%;
     z-index: 10;
     height: 25%;
 }
 
 #page-two-art-new_moon {
-    top: 1%;
-    left: 1%;
+    bottom: 5%;
+    left: 10%;
     z-index: 10;
     height: 20%;
 }
 
 /* End of Page 2 Art */
 
-
-
 /* Page 3 Art */
-
 
 #page-three-art-ground {
     width: 100%;
@@ -305,7 +301,6 @@ body {
     -moz-transform: translateY(100%);
     -ms-transform: translateY(100%);
     -o-transform: translateY(100%);
-
 }
 
 .slide-up.appear {
@@ -319,4 +314,34 @@ body {
     -moz-transition: transform 800ms ease-in;
     -ms-transition: transform 800ms ease-in;
     -o-transition: transform 800ms ease-in;
+}
+
+.move-left {
+    transform: translateX(calc(100vw + 100%));
+    -webkit-transform: translateX(calc(100vw + 100%));
+    -moz-transform: translateX(calc(100vw + 100%));
+    -ms-transform: translateX(calc(100vw + 100%));
+    -o-transform: translateX(calc(100vw + 100%));
+}
+
+.move-left.appear#page-two-art-witch_and_cat {
+    animation: moveLeftAnimation 6000ms both ease-in;
+    -webkit-animation: moveLeftAnimation 6000ms both ease-in;
+}
+
+@keyframes moveLeftAnimation {
+    0% {
+        transform: translateX(calc(100vw + 100%));
+        -webkit-transform: translateX(calc(100vw + 100%));
+        -moz-transform: translateX(calc(100vw + 100%));
+        -ms-transform: translateX(calc(100vw + 100%));
+        -o-transform: translateX(calc(100vw + 100%));
+}
+    100% {
+        transform: translateX(0)    ;
+        -webkit-transform: translateX(0)    ;
+        -moz-transform: translateX(0)    ;
+        -ms-transform: translateX(0)    ;
+        -o-transform: translateX(0)    ;
+}
 }
