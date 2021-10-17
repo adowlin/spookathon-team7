@@ -77,12 +77,13 @@ Please find the wireframes for the project below.
 
 **Body text**
 
-![halloween 2](https://user-images.githubusercontent.com/65243328/137595301-54d9de42-bb2e-41cf-9055-7e143014c192.JPG)
+![halloween 2](https://user-images.githubusercontent.com/65243328/137626336-0bbeb7e3-6067-4f48-8da3-4712fee7640e.JPG)
+
 
 
 **Imagery**
 
-![halloween night wrn2](https://user-images.githubusercontent.com/65243328/137595250-474dafb8-8d86-42db-b709-56a0daac1300.JPG)
+![halloween night wrn2](https://user-images.githubusercontent.com/65243328/137626218-495cdf0b-4775-47ce-89b2-744960b87c51.JPG)
 
 
 ---
@@ -90,13 +91,13 @@ Please find the wireframes for the project below.
 
 ### Current features
 
-Opening page with bats flying across screen.
+• Opening page with bats flying across title page with fog in background.
+• Castle foreground on 1st page with Bats on screen and spooky fog lights for castle.
+• Witch on a broomstick with cat and big moon on the 2nd page.
+• Skeleton adorned in flowers and gravestones in the background on 3rd page.
 
 ### Features to be added
 
-Page1: A house, witch, cornstalks
-Page2: broomstick, cat, toad, pumpkins
-Page3: skeleton, graveyard stuff
 Page4: Monster, chains, can re-use my bats
 
 
@@ -106,7 +107,9 @@ Page4: Monster, chains, can re-use my bats
 https://inkscape.org/
 
 **Languages**
-
+• HTML
+• CSS
+• Javascript
 
 ## Libraries and Frameworks
 https://inkscape.org/
@@ -116,7 +119,8 @@ https://inkscape.org/
 
 **IDE, Version control, Repository storage**
 
-
+• Gitpod
+• Github
 
 ## Resources
 
