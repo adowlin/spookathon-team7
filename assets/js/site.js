@@ -100,12 +100,20 @@ function moonAudio() {
     audioHowl.play();
 }
 
+// Function for back to top click audio
+function endAudio() {
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/)
+    let audioEnd = new Audio("assets/audio/happyhalloween.mp3");
+    audioEnd.play();
+}
+
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
     document.getElementById("title-page-art-owl").addEventListener("click", owlAction, false);
     document.getElementById("title-page-button").addEventListener("click", laughAudio);
     document.getElementById("page-one-art-witch").addEventListener("click", witchAnimate);
     document.getElementById("page-two-art-new_moon").addEventListener("click", moonAudio);
+    document.getElementById("page-four-button").addEventListener("click", endAudio);
     addBats(3);
     setInterval(batFlutter, 50);
     
