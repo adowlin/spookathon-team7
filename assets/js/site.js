@@ -90,7 +90,7 @@ const options = {
     root: null,
     // Section needs to be 100% on screen before triggering
     threshold: 0,
-    //rootMargin: "0px 0px -500px 0px"
+    rootMargin: "0px 0px 0px -500px"
 };
 
 const actionOnScroll = new IntersectionObserver(function(entries, actionOnScroll) {
