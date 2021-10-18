@@ -429,7 +429,11 @@ body {
     color: rgba(var(--col-story), 1);
     font-size: 2rem;
     text-decoration: none;
+}
 
+.small-monster {
+    width: auto;
+    height: 100px;
 }
 
 /* .story-text {
