@@ -6,8 +6,6 @@ This project was built for the Code Institute Hackathon in October 2021 by the H
 
 Please [click here](https://adowlin.github.io/spookathon-team7/) to view the deployed site.
 
-
-
 ### Index
 
 - [Ux](#ux)
@@ -18,8 +16,6 @@ Please [click here](https://adowlin.github.io/spookathon-team7/) to view the dep
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
-
-
 
 ## UX
  
@@ -36,24 +32,16 @@ Interact with the HTML Halloween story and be taken through an immersive journey
 
 As a user I want to be able to: Interact with the HTML Halloween story and be taken through an immersive journey.
 
-
-
-## Scope
-
-
-
 ### Skeleton
 
-
-
 #### Wireframes
+
+Wireframes were created using [Balsamiq](https://balsamiq.com/)
 
 Please find the wireframes for the project below. 
 ![index_html_layout](https://user-images.githubusercontent.com/65243328/137497378-7265d2f1-ab8d-4646-9661-6e61e24d607a.png)
 
-
 ### Surface
-
 
 **Colours**
 
@@ -69,45 +57,33 @@ The following colours have been used in the creation of the site.
 
 - #0000 - Black - used for the vector images to portray shadows. 
 
-
 **Typography**
-![mrmonstar](https://user-images.githubusercontent.com/65243328/137498123-76287d9b-571a-4a70-acef-b2be90e31293.png)
 
-![counter-attack](https://user-images.githubusercontent.com/65243328/137498135-50eb3006-ade2-41e4-8a69-93d4956c41e9.png)
+![MrMonstar](https://user-images.githubusercontent.com/65243328/137498123-76287d9b-571a-4a70-acef-b2be90e31293.png)
 
-
+![Counter Attack](https://user-images.githubusercontent.com/65243328/137498135-50eb3006-ade2-41e4-8a69-93d4956c41e9.png)
 
 **Heading text**
 
 ![halloween night wrn](https://user-images.githubusercontent.com/65243328/137498993-02ee9ba7-51ca-440e-982d-817c14ec6d2a.JPG)
 
-
-
 **Body text**
 
 ![halloween 2](https://user-images.githubusercontent.com/65243328/137626336-0bbeb7e3-6067-4f48-8da3-4712fee7640e.JPG)
 
-
-
 **Imagery**
 
 ![halloween night wrn2](https://user-images.githubusercontent.com/65243328/137626218-495cdf0b-4775-47ce-89b2-744960b87c51.JPG)
-
 
 ---
 ## Features
 
 ### Current features
 
-• Opening page with bats flying across title page with fog in background.
-• Castle foreground on 1st page with Bats on screen and spooky fog lights for castle.
-• Witch on a broomstick with cat and big moon on the 2nd page.
-• Skeleton adorned in flowers and gravestones in the background on 3rd page.
-
-### Features to be added
-
-Page4: Monster, chains, can re-use my bats
-
+* Opening page with bats flying across title page with fog in background.
+* Castle foreground on 1st page with Bats on screen and spooky fog lights for castle.
+* Witch on a broomstick with cat and big moon on the 2nd page.
+* Skeleton adorned in flowers and gravestones in the background on 3rd page.
 
 
 ## Technologies 
@@ -117,44 +93,35 @@ Page4: Monster, chains, can re-use my bats
 
 ## Languages
 
-
 • HTML
 • CSS
 • Javascript
 
-## Libraries and Frameworks
+**Libraries and Frameworks**
 
 * Jquery
 
-
-**Integrations**
-
-
 **IDE, Version control, Repository storage**
 
-[Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+* [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+* [GitPod](https://gitpod.io/) - Workspace IDE.
+* [GitHub](https://github.com/) - Hosting service used to manage my Git repositories.
 
-[GitPod](https://gitpod.io/) - Workspace IDE.
+**Resources**
 
-[GitHub](https://github.com/) - Hosting service used to manage my Git repositories.
-
-
-## Resources
-
-The following resources have been used within the project.
-
-[Canva](https://www.canva.com/) was used to create some of the artwork.
-
-[Inkscape](https://inkscape.org/) - a free and open-source vector graphics editor used to create vector images.
+* [Balsamiq](https://balsamiq.com/) was used to create the site's wireframes.
+* [Font Awesome](https://fontawesome.com/) was used for the [arrow down](https://fontawesome.com/v5.15/icons/angle-double-down?style=solid) and [arrow up](https://fontawesome.com/v5.15/icons/angle-double-up?style=solid) icons on the site's buttons.
+* [Inscape](https://inkscape.org/) a free and open-source vector graphics editor used to create vector images.
+* [Adobe Spark](https://spark.adobe.com/sp/)
+* [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) was used to edit some of the artwork.
+* [Canva](https://www.canva.com/) was used to create some of the artwork.
 
 ## Testing
 
 
 
-## Problems and solutions
+### Problems and solutions
 
-### Design 
-Inkscape
 
 ## Deployment 
 
@@ -165,22 +132,52 @@ The website was deployed to Github pages via the following steps.
 4. The page will automatically refresh.
 5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+### Local Deployment
+To run this project using Gitpod, you will need to use the Google Chrome browser, and [a GitHub account](https://github.com/). Then, follow the below steps:
+
+1. Install the [Gitpod Chrome Browser Extension](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en)
+2. Log in to [Gitpod](https://gitpod.io) using your GitHub account
+3. Head to this project's [GitHub Repository](https://github.com/adowlin/spookathon-team7)
+4. Click the green "Gitpod" button that now appears in the top right corner of the repository, which creates a new Gitpod workspace using the code from the GitHub
+5. In Gitpod, create a branch to push your commits to using `git checkout -b branch_name`.
+6. After pushing changes to your branch using `git push origin branch_name`, create a pull request in GitHub.
+
+To run this project using a local IDE, for example VSCode, follow these steps to clone the project:
+
+1. Locate the [project's repository](https://github.com/adowlin/spookathon-team7) in GitHub
+2. Above the list of files, click the "Code" button
+3. To clone the repository using HTTPS, copy the link under "HTTPS" in the dropdown box
+4. Open Git Bash and change the current working directory to the location you want the cloned directory to be
+5. Type `git clone`, and paste the URL copied in Step 3, then press enter
+6. Your local clone will be created
 
 ## Credits
 
-
-### Website Inspiration
-![Halloween-poem](https://user-images.githubusercontent.com/65243328/137500980-6c598948-cdaa-4b32-9ffe-fe75ee611294.jpg)
-
-
 ### Copy
 
+![Halloween-poem](https://user-images.githubusercontent.com/65243328/137500980-6c598948-cdaa-4b32-9ffe-fe75ee611294.jpg)
 
 ### Code
 
+Fog overlay on all pages adapted from: https://github.com/WebDevSHORTS/Fog-Overlay-Animation
 
 ### Imagery
-Fog overlay animation adapted from [here](https://github.com/WebDevSHORTS/Fog-Overlay-Animation)
 
+Images are a combination of graphics generated in [Canva](https://www.canva.com/), and original artwork drawn in [Inkscape](https://inkscape.org/).
+
+### Typography
+
+MrMonstar font downloaded from: https://www.fontspace.com/mr-monstar-font-f40444
+Conter Attack font downloaded from: https://www.fontspace.com/counter-attack-font-f60802
+
+### Audio
+
+Sound effects obtained from [zapsplat.com](https://www.zapsplat.com) and [freesoundeffects.com](https://www.freesoundeffects.com/)
+Owl: https://www.zapsplat.com/music/owl-hoot-nighttime-1/
+Cackle: https://www.freesoundeffects.com/free-track/cackle3-466439/ 
+Evil Laugh: https://www.zapsplat.com/music/evil-male-horror-laugh-7/
+Howling: https://www.zapsplat.com/music/werewolf-howls-distant-1/
+Happy Halloween: https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/
+Spooky Voice: https://www.freesoundeffects.com/free-track/haunting-466386/
 
 ## Acknowledgements
