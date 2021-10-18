@@ -15,6 +15,7 @@
 :root {
     --col-title: 197, 238, 209;
     --col-story: 217, 247, 226;
+    --col-background: 11, 14, 58;
 }
 
 * {
@@ -29,7 +30,7 @@ body, html {
 }
 
 body {
-    background-color: #0b0e3a;
+    background-color: rgba(var(--col-background), 1);
 }
 
 .container {
@@ -61,7 +62,6 @@ body {
     grid-area: 5 / 1 / 6 / 2;
 } 
 /* grid for about us */
-
 #about-us-page {
 
     display: grid;
@@ -80,7 +80,6 @@ body {
 .div6 { grid-area: 4 / 2 / 5 / 3; text-align: center;}
 .div7 { grid-area: 4 / 3 / 5 / 4; text-align: center;}
 .div8 { grid-area: 4 / 4 / 5 / 5; text-align: center;}
-
 /* End of Grid for About us */
 
 /* End CSS Grid Definitions */
@@ -289,7 +288,6 @@ body {
 
 /* Page 4 Art */
 
-
 .art-container #chain1 {
     position: absolute;
     left: -450px;
@@ -308,9 +306,7 @@ body {
     top: -100px;
 }
 
-
-
-/* classess to make Monster bigger */
+/* classes to make Monster bigger */
 
 /* base position */
 
@@ -325,14 +321,11 @@ body {
 
 .small-monster {
     transform: scale(1);
-
 }
 
-.small-monster.make-biger {
+.small-monster.make-bigger {
     transform: scale(2.5);
-
 }
-
 
 /* end of art page 4 */
 
@@ -352,7 +345,6 @@ body {
         display: none;
     }
 }
-
 
 /* positioning of the monster depending on the screen size*/
 
@@ -394,7 +386,6 @@ body {
         bottom: 30px;
     }
 }
-
 
 @media only screen and (min-width: 769px) {
     .art-container #monster {
@@ -527,7 +518,6 @@ body {
 
 /* End Fog */
 
-
 /* Media Queries */
 
 @media only screen and (max-width: 465px) {
@@ -557,7 +547,6 @@ body {
         height: 110vh;
     }
 }
-
 
 /* Animation classes */
 .slide-up {
