@@ -60,10 +60,28 @@ body {
 #page-four {
     grid-area: 5 / 1 / 6 / 2;
 } 
+/* grid for about us */
 
 #about-us-page {
-    grid-area: 6 / 1 / 7 / 2;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
 }
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 3 / 3 / 4; }
+.div3 { grid-area: 3 / 2 / 4 / 3; }
+.div4 { grid-area: 3 / 3 / 4 / 4; }
+.div5 { grid-area: 3 / 4 / 4 / 5; }
+.div6 { grid-area: 4 / 2 / 5 / 3; }
+.div7 { grid-area: 4 / 3 / 5 / 4; }
+.div8 { grid-area: 4 / 4 / 5 / 5; }
+
+/* End of Grid for About us */
 
 /* End CSS Grid Definitions */
 
@@ -384,6 +402,36 @@ body {
 }
 
 /* end of page 4 media queries */
+
+/* About us */
+
+#about-title {
+    display: flex;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
+}
+#about-title p {
+    display: flex;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
+}
+
+/* .story-text {
+    display: grid;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
+    position: absolute;
+    top: 45vh;
+    z-index: 9999;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+} */
+
+/* End of About us */
 
 /* Fog Effect CSS */
 
