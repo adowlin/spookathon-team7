@@ -436,19 +436,6 @@ body {
     height: 100px;
 }
 
-/* .story-text {
-    display: grid;
-    font-family: CounterAttack, sans-serif;
-    color: rgba(var(--col-story), 1);
-    font-size: 3rem;
-    position: absolute;
-    top: 45vh;
-    z-index: 9999;
-    text-align: center;
-    width: 100%;
-    pointer-events: none;
-} */
-
 /* End of About us */
 
 /* Fog Effect CSS */

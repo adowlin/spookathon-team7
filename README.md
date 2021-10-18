@@ -130,6 +130,18 @@ The following colours have been used in the creation of the site.
 * [JSHint](https://jshint.com/) was used to validate the JavaScript code in the script.js file. No errors are present.
 * [Esprima](https://esprima.org/demo/validate.html) was also used to validate the JavaScript syntax. Returned result: "Code is syntactically valid".
 
+### Compatibility & Responsiveness
+The site was tested across multiple browsers and device types, with no cross-browser compatibility issues to note.
+
+* Browsers tested:
+    * Chrome (Windows, macOS, iOS, Android)
+    * Safari (macOS, iOS)
+    * Microsoft Edge (Windows, macOS)
+    * Firefox (Windows, macOS)
+    * Samsung Browser (Android)
+
+The site is mostly responsive across a wide range of device sizes. The fog overly does not scale to cover the entire viewport height on smaller screen sizes, so gaps in the fog are present at the top and bottom of each site section. A fix may be implemented for this in future, but for now it is a known issue due to time constraints. However, this issue does not detract for the story's immersiveness.
+
 ### Problems and solutions
 
 
