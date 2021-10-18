@@ -118,7 +118,29 @@ The following colours have been used in the creation of the site.
 
 ## Testing
 
+### Validation
 
+#### HTML
+* [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML on the site. This validator does show warnings that headings are not used in any of the site's sections - this is to be expected as the lack of headers is by design to promote an immersive experience. No errors are present in the HTML code otherwise.
+
+#### CSS
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code in the style.css file. No errors are present.
+
+#### Javascript
+* [JSHint](https://jshint.com/) was used to validate the JavaScript code in the script.js file. No errors are present.
+* [Esprima](https://esprima.org/demo/validate.html) was also used to validate the JavaScript syntax. Returned result: "Code is syntactically valid".
+
+### Compatibility & Responsiveness
+The site was tested across multiple browsers and device types, with no cross-browser compatibility issues to note.
+
+* Browsers tested:
+    * Chrome (Windows, macOS, iOS, Android)
+    * Safari (macOS, iOS)
+    * Microsoft Edge (Windows, macOS)
+    * Firefox (Windows, macOS)
+    * Samsung Browser (Android)
+
+The site is mostly responsive across a wide range of device sizes. The fog overly does not scale to cover the entire viewport height on smaller screen sizes, so gaps in the fog are present at the top and bottom of each site section. A fix may be implemented for this in future, but for now it is a known issue due to time constraints. However, this issue does not detract for the story's immersiveness.
 
 ### Problems and solutions
 
@@ -167,17 +189,17 @@ Images are a combination of graphics generated in [Canva](https://www.canva.com/
 
 ### Typography
 
-MrMonstar font downloaded from: https://www.fontspace.com/mr-monstar-font-f40444
-Conter Attack font downloaded from: https://www.fontspace.com/counter-attack-font-f60802
+* MrMonstar font downloaded from: https://www.fontspace.com/mr-monstar-font-f40444
+* Counter Attack font downloaded from: https://www.fontspace.com/counter-attack-font-f60802
 
 ### Audio
 
-Sound effects obtained from [zapsplat.com](https://www.zapsplat.com) and [freesoundeffects.com](https://www.freesoundeffects.com/)
-Owl: https://www.zapsplat.com/music/owl-hoot-nighttime-1/
-Cackle: https://www.freesoundeffects.com/free-track/cackle3-466439/ 
-Evil Laugh: https://www.zapsplat.com/music/evil-male-horror-laugh-7/
-Howling: https://www.zapsplat.com/music/werewolf-howls-distant-1/
-Happy Halloween: https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/
-Spooky Voice: https://www.freesoundeffects.com/free-track/haunting-466386/
+* Sound effects obtained from [zapsplat.com](https://www.zapsplat.com) and [freesoundeffects.com](https://www.freesoundeffects.com/)
+* Owl: https://www.zapsplat.com/music/owl-hoot-nighttime-1/
+* Cackle: https://www.freesoundeffects.com/free-track/cackle3-466439/ 
+* Evil Laugh: https://www.zapsplat.com/music/evil-male-horror-laugh-7/
+* Howling: https://www.zapsplat.com/music/werewolf-howls-distant-1/
+* Happy Halloween: https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/
+* Spooky Voice: https://www.freesoundeffects.com/free-track/haunting-466386/
 
 ## Acknowledgements

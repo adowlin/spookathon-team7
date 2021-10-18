@@ -315,6 +315,8 @@ body {
 /* base position */
 
 .art-container #monster {
+    width: auto;
+    height: 500px;
     position: absolute;
     right: 0;
     bottom: 50px;
@@ -427,21 +429,12 @@ body {
     color: rgba(var(--col-story), 1);
     font-size: 2rem;
     text-decoration: none;
-
 }
 
-/* .story-text {
-    display: grid;
-    font-family: CounterAttack, sans-serif;
-    color: rgba(var(--col-story), 1);
-    font-size: 3rem;
-    position: absolute;
-    top: 45vh;
-    z-index: 9999;
-    text-align: center;
-    width: 100%;
-    pointer-events: none;
-} */
+.small-monster {
+    width: auto;
+    height: 100px;
+}
 
 /* End of About us */
 
