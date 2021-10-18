@@ -462,6 +462,18 @@ body {
     -webkit-filter: invert(23%) sepia(87%) saturate(4676%) hue-rotate(119deg) brightness(91%) contrast(101%);
 }
 
+@media only screen and (max-width: 1000px) {
+    .fonts-for-about-title {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #about-title {
+        display: none;
+    }
+}
+
 /* End of About us */
 
 /* Fog Effect CSS */
