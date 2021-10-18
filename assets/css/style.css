@@ -35,7 +35,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -60,6 +60,10 @@ body {
 #page-four {
     grid-area: 5 / 1 / 6 / 2;
 } 
+
+#about-us-page {
+    grid-area: 6 / 1 / 7 / 2;
+}
 
 /* End CSS Grid Definitions */
 
@@ -119,7 +123,7 @@ body {
 
 /* All Pages Art */
 
-#art-ground  {
+.art-ground  {
     width: 100%;
     bottom: 0;
     z-index: 5000;
@@ -280,25 +284,16 @@ body {
     top: -100px;
 }
 
-.art-container #ground-monster {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
 
+/* classes to make Monster bigger */
 
-/* classess to make Monster bigger */
-
-/* base postion */
+/* base position */
 
 .art-container #monster {
     position: absolute;
     right: 0;
     top: 300px;
     pointer-events: auto;
-}
-.test {
-    background-color: red;
 }
 
 .small-monster {
