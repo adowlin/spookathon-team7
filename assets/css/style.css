@@ -15,6 +15,7 @@
 :root {
     --col-title: 197, 238, 209;
     --col-story: 217, 247, 226;
+    --col-background: 11, 14, 58;
 }
 
 * {
@@ -29,7 +30,7 @@ body, html {
 }
 
 body {
-    background-color: #0b0e3a;
+    background-color: rgba(var(--col-background), 1);
 }
 
 .container {
@@ -61,7 +62,6 @@ body {
     grid-area: 5 / 1 / 6 / 2;
 } 
 /* grid for about us */
-
 #about-us-page {
 
     display: grid;
@@ -80,7 +80,6 @@ body {
 .div6 { grid-area: 4 / 2 / 5 / 3; text-align: center;}
 .div7 { grid-area: 4 / 3 / 5 / 4; text-align: center;}
 .div8 { grid-area: 4 / 4 / 5 / 5; text-align: center;}
-
 /* End of Grid for About us */
 
 /* End CSS Grid Definitions */
@@ -289,7 +288,6 @@ body {
 
 /* Page 4 Art */
 
-
 .art-container #chain1 {
     position: absolute;
     left: -450px;
@@ -308,9 +306,7 @@ body {
     top: -100px;
 }
 
-
-
-/* classess to make Monster bigger */
+/* classes to make Monster bigger */
 
 /* base position */
 
@@ -325,14 +321,11 @@ body {
 
 .small-monster {
     transform: scale(1);
-
 }
 
-.small-monster.make-biger {
+.small-monster.make-bigger {
     transform: scale(2.5);
-
 }
-
 
 /* end of art page 4 */
 
@@ -352,7 +345,6 @@ body {
         display: none;
     }
 }
-
 
 /* positioning of the monster depending on the screen size*/
 
@@ -395,7 +387,6 @@ body {
     }
 }
 
-
 @media only screen and (min-width: 769px) {
     .art-container #monster {
         position: absolute;
@@ -414,7 +405,7 @@ body {
     width: 100%;
     font-family: CounterAttack, sans-serif;
     color: rgba(var(--col-story), 1);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .fonts-for-about-us a {
@@ -434,6 +425,41 @@ body {
 .small-monster {
     width: auto;
     height: 100px;
+}
+
+#about-sven {
+    filter: invert(64%) sepia(71%) saturate(3630%) hue-rotate(359deg) brightness(101%) contrast(107%);
+    -webkit-filter: invert(64%) sepia(71%) saturate(3630%) hue-rotate(359deg) brightness(101%) contrast(107%);
+}
+
+#about-joanna {
+    filter: invert(8%) sepia(84%) saturate(7457%) hue-rotate(1deg) brightness(103%) contrast(106%);
+    -webkit-filter: invert(8%) sepia(84%) saturate(7457%) hue-rotate(1deg) brightness(103%) contrast(106%);
+}
+
+#about-megan {
+    filter: invert(93%) sepia(0%) saturate(121%) hue-rotate(183deg) brightness(84%) contrast(90%);
+    -webkit-filter: invert(93%) sepia(0%) saturate(121%) hue-rotate(183deg) brightness(84%) contrast(90%);
+}
+
+#about-alison {
+    filter: invert(81%) sepia(14%) saturate(6144%) hue-rotate(163deg) brightness(97%) contrast(98%);
+    -webkit-filter: invert(81%) sepia(14%) saturate(6144%) hue-rotate(163deg) brightness(97%) contrast(98%);
+}
+
+#about-rebecca {
+    filter: invert(9%) sepia(99%) saturate(5063%) hue-rotate(295deg) brightness(84%) contrast(107%);
+    -webkit-filter: invert(9%) sepia(99%) saturate(5063%) hue-rotate(295deg) brightness(84%) contrast(107%);
+}
+
+#about-tinashe {
+    filter: invert(69%) sepia(99%) saturate(569%) hue-rotate(348deg) brightness(92%) contrast(84%);
+    -webkit-filter: invert(69%) sepia(99%) saturate(569%) hue-rotate(348deg) brightness(92%) contrast(84%);
+}
+
+#about-malcolm {
+    filter: invert(23%) sepia(87%) saturate(4676%) hue-rotate(119deg) brightness(91%) contrast(101%);
+    -webkit-filter: invert(23%) sepia(87%) saturate(4676%) hue-rotate(119deg) brightness(91%) contrast(101%);
 }
 
 /* End of About us */
@@ -492,7 +518,6 @@ body {
 
 /* End Fog */
 
-
 /* Media Queries */
 
 @media only screen and (max-width: 465px) {
@@ -522,7 +547,6 @@ body {
         height: 110vh;
     }
 }
-
 
 /* Animation classes */
 .slide-up {

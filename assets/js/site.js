@@ -165,12 +165,12 @@ $(document).ready(function() {
 
     $("#monster").mouseenter(function(){
         // $(this).css({left: 0})
-        $(this).addClass("make-biger");
+        $(this).addClass("make-bigger");
     });
 
     $("#monster").mouseleave(function(){
         // $(this).css({left: 0})
-        $(this).removeClass("make-biger");
+        $(this).removeClass("make-bigger");
     });
 
 
