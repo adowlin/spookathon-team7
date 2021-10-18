@@ -6,7 +6,7 @@ This project was built for the Code Institute Hackathon in October 2021 by the H
 
 Please [click here](https://adowlin.github.io/spookathon-team7/) to view the deployed site.
 
-### Index
+## Index
 
 - [Ux](#ux)
 - [Features](#features)
@@ -21,14 +21,13 @@ Please [click here](https://adowlin.github.io/spookathon-team7/) to view the dep
  
 ### Aims
 
-**Site owner's goal**
+**Site owner's goal**  
 Provide a fun experience for users that visit the site and be able to follow the story smoothly.
 
-**External user’s goal** 
+**External user’s goal**  
 Interact with the HTML Halloween story and be taken through an immersive journey.
 
- 
-#### User Stories
+### User Stories
 
 As a user I want to be able to: Interact with the HTML Halloween story and be taken through an immersive journey.
 
@@ -38,8 +37,8 @@ As a user I want to be able to: Interact with the HTML Halloween story and be ta
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/)
 
-Please find the wireframes for the project below. 
-![index_html_layout](https://user-images.githubusercontent.com/65243328/137497378-7265d2f1-ab8d-4646-9661-6e61e24d607a.png)
+Wireframes for the project below.  
+![index_html_layout](readme-assets/index_html_layout.png)
 
 ### Surface
 
@@ -47,7 +46,7 @@ Please find the wireframes for the project below.
 
 The following colours have been used in the creation of the site.
 
-![colour pallette](https://github.com/adowlin/spookathon-team7/blob/main/readme-assets/colorpalette.png?raw=true)
+![colour pallette](readme-assets/colorpalette.png)
 
 - #0B0E3A - Navy Blue - as the main background colour and to depict the night sky
 
@@ -59,37 +58,44 @@ The following colours have been used in the creation of the site.
 
 **Typography**
 
-![MrMonstar](https://user-images.githubusercontent.com/65243328/137498123-76287d9b-571a-4a70-acef-b2be90e31293.png)
+![MrMonstar](readme-assets/mrmonstar-font-preview.png)
 
-![Counter Attack](https://user-images.githubusercontent.com/65243328/137498135-50eb3006-ade2-41e4-8a69-93d4956c41e9.png)
+![Counter Attack](readme-assets/counterattack-font-preview.png)
 
 **Heading text**
 
-![halloween night wrn](https://user-images.githubusercontent.com/65243328/137498993-02ee9ba7-51ca-440e-982d-817c14ec6d2a.JPG)
+![halloween night wrn](readme-assets/heading-text-preview.jpg)
 
 **Body text**
 
-![halloween 2](https://user-images.githubusercontent.com/65243328/137626336-0bbeb7e3-6067-4f48-8da3-4712fee7640e.JPG)
+![halloween 2](readme-assets/body-text-preview.jpg)
 
 **Imagery**
 
-![halloween night wrn2](https://user-images.githubusercontent.com/65243328/137626218-495cdf0b-4775-47ce-89b2-744960b87c51.JPG)
+![halloween night wrn2](readme-assets/imagery-preview.jpg)
 
 ---
 ## Features
 
 ### Current features
 
-* Opening page with bats flying across title page with fog in background.
-* Castle foreground on 1st page with Bats on screen and spooky fog lights for castle.
-* Witch on a broomstick with cat and big moon on the 2nd page.
-* Skeleton adorned in flowers and gravestones in the background on 3rd page.
-
-
-## Technologies 
-
-* [Inscape](https://inkscape.org/)
-* [adobe spark](https://spark.adobe.com/sp/)
+* Title page:
+    * Bats flying across title page with fog in background.
+    * Interactive Owl
+* Page one:
+    * Castle foreground with bats on screen and spooky fog lights for castle.
+    * Corn rises up on scroll.
+    * Interactive witch
+* Page two:
+    * Witch on a broomstick with cat and big moon on the 2nd page.
+* Page three:
+    * Skeleton adorned in flowers
+    * Gravestones rise from the ground on scroll
+* Page four:
+    * Chains imagery
+    * Interactive monster
+* About Us page:
+    * Links to GitHub pages for each of the contributors.
 
 ## Languages
 
@@ -105,13 +111,13 @@ The following colours have been used in the creation of the site.
 
 * [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
 * [GitPod](https://gitpod.io/) - Workspace IDE.
-* [GitHub](https://github.com/) - Hosting service used to manage my Git repositories.
+* [GitHub](https://github.com/) - Hosting service used to manage the Git repositories.
 
 **Resources**
 
 * [Balsamiq](https://balsamiq.com/) was used to create the site's wireframes.
 * [Font Awesome](https://fontawesome.com/) was used for the [arrow down](https://fontawesome.com/v5.15/icons/angle-double-down?style=solid) and [arrow up](https://fontawesome.com/v5.15/icons/angle-double-up?style=solid) icons on the site's buttons.
-* [Inscape](https://inkscape.org/) a free and open-source vector graphics editor used to create vector images.
+* [Inkscape](https://inkscape.org/) a free and open-source vector graphics editor used to create vector images.
 * [Adobe Spark](https://spark.adobe.com/sp/)
 * [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) was used to edit some of the artwork.
 * [Canva](https://www.canva.com/) was used to create some of the artwork.
@@ -205,7 +211,6 @@ To run this project using a local IDE, for example VSCode, follow these steps to
 6. Your local clone will be created
 
 ## Credits
-
 ### Copy
 
 ![Halloween-poem](https://user-images.githubusercontent.com/65243328/137500980-6c598948-cdaa-4b32-9ffe-fe75ee611294.jpg)
@@ -213,6 +218,7 @@ To run this project using a local IDE, for example VSCode, follow these steps to
 ### Code
 
 Fog overlay on all pages adapted from: https://github.com/WebDevSHORTS/Fog-Overlay-Animation
+[CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 
 ### Imagery
 
