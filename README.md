@@ -118,7 +118,17 @@ The following colours have been used in the creation of the site.
 
 ## Testing
 
+### Validation
 
+#### HTML
+* [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML on the site. This validator does show warnings that headings are not used in any of the site's sections - this is to be expected as the lack of headers is by design to promote an immersive experience. No errors are present in the HTML code otherwise.
+
+#### CSS
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code in the style.css file. No errors are present.
+
+#### Javascript
+* [JSHint](https://jshint.com/) was used to validate the JavaScript code in the script.js file. No errors are present.
+* [Esprima](https://esprima.org/demo/validate.html) was also used to validate the JavaScript syntax. Returned result: "Code is syntactically valid".
 
 ### Problems and solutions
 
