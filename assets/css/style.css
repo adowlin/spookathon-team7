@@ -436,6 +436,41 @@ body {
     height: 100px;
 }
 
+#about-sven {
+    filter: invert(64%) sepia(71%) saturate(3630%) hue-rotate(359deg) brightness(101%) contrast(107%);
+    -webkit-filter: invert(64%) sepia(71%) saturate(3630%) hue-rotate(359deg) brightness(101%) contrast(107%);
+}
+
+#about-joanna {
+    filter: invert(8%) sepia(84%) saturate(7457%) hue-rotate(1deg) brightness(103%) contrast(106%);
+    -webkit-filter: invert(8%) sepia(84%) saturate(7457%) hue-rotate(1deg) brightness(103%) contrast(106%);
+}
+
+#about-megan {
+    filter: invert(93%) sepia(0%) saturate(121%) hue-rotate(183deg) brightness(84%) contrast(90%);
+    -webkit-filter: invert(93%) sepia(0%) saturate(121%) hue-rotate(183deg) brightness(84%) contrast(90%);
+}
+
+#about-alison {
+    filter: invert(81%) sepia(14%) saturate(6144%) hue-rotate(163deg) brightness(97%) contrast(98%);
+    -webkit-filter: invert(81%) sepia(14%) saturate(6144%) hue-rotate(163deg) brightness(97%) contrast(98%);
+}
+
+#about-rebecca {
+    filter: invert(9%) sepia(99%) saturate(5063%) hue-rotate(295deg) brightness(84%) contrast(107%);
+    -webkit-filter: invert(9%) sepia(99%) saturate(5063%) hue-rotate(295deg) brightness(84%) contrast(107%);
+}
+
+#about-tinashe {
+    filter: invert(69%) sepia(99%) saturate(569%) hue-rotate(348deg) brightness(92%) contrast(84%);
+    -webkit-filter: invert(69%) sepia(99%) saturate(569%) hue-rotate(348deg) brightness(92%) contrast(84%);
+}
+
+#about-malcolm {
+    filter: invert(23%) sepia(87%) saturate(4676%) hue-rotate(119deg) brightness(91%) contrast(101%);
+    -webkit-filter: invert(23%) sepia(87%) saturate(4676%) hue-rotate(119deg) brightness(91%) contrast(101%);
+}
+
 /* End of About us */
 
 /* Fog Effect CSS */
