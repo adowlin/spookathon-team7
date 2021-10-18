@@ -60,10 +60,28 @@ body {
 #page-four {
     grid-area: 5 / 1 / 6 / 2;
 } 
+/* grid for about us */
 
 #about-us-page {
-    grid-area: 6 / 1 / 7 / 2;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
 }
+
+.div1 { grid-area: 1 / 1 / 2 / 6; text-align: center;}
+.div2 { grid-area: 2 / 3 / 3 / 4; text-align: center;}
+.div3 { grid-area: 3 / 2 / 4 / 3; text-align: center;}
+.div4 { grid-area: 3 / 3 / 4 / 4; text-align: center;}
+.div5 { grid-area: 3 / 4 / 4 / 5; text-align: center;}
+.div6 { grid-area: 4 / 2 / 5 / 3; text-align: center;}
+.div7 { grid-area: 4 / 3 / 5 / 4; text-align: center;}
+.div8 { grid-area: 4 / 4 / 5 / 5; text-align: center;}
+
+/* End of Grid for About us */
 
 /* End CSS Grid Definitions */
 
@@ -291,7 +309,8 @@ body {
 }
 
 
-/* classes to make Monster bigger */
+
+/* classess to make Monster bigger */
 
 /* base position */
 
@@ -311,6 +330,7 @@ body {
     transform: scale(2.5);
 
 }
+
 
 /* end of art page 4 */
 
@@ -382,6 +402,48 @@ body {
 }
 
 /* end of page 4 media queries */
+
+/* About us */
+
+.fonts-for-about-title {
+    display: grid;
+    position: absolute;
+    top: 5vh;
+    width: 100%;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
+}
+
+.fonts-for-about-us a {
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+.fonts-for-about-us p {
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+/* .story-text {
+    display: grid;
+    font-family: CounterAttack, sans-serif;
+    color: rgba(var(--col-story), 1);
+    font-size: 3rem;
+    position: absolute;
+    top: 45vh;
+    z-index: 9999;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+} */
+
+/* End of About us */
 
 /* Fog Effect CSS */
 

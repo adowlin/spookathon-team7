@@ -88,7 +88,11 @@ The following colours have been used in the creation of the site.
 
 ## Technologies 
 
-**Languages**
+* [Inscape](https://inkscape.org/)
+* [adobe spark](https://spark.adobe.com/sp/)
+
+## Languages
+
 • HTML
 • CSS
 • Javascript

@@ -163,15 +163,16 @@ $(document).ready(function() {
         $("#fog-above-monster").fadeIn(2000);
     });
 
-    $("#monster").mouseleave(function(){
+    $("#monster").mouseenter(function(){
         // $(this).css({left: 0})
         $(this).addClass("make-biger");
     });
 
-    $("#monster").mouseenter(function(){
+    $("#monster").mouseleave(function(){
         // $(this).css({left: 0})
         $(this).removeClass("make-biger");
     });
+
 
     
 });
