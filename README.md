@@ -99,9 +99,9 @@ The following colours have been used in the creation of the site.
 
 ## Languages
 
-• HTML
-• CSS
-• Javascript
+* HTML
+* CSS
+* Javascript
 
 **Libraries and Frameworks**
 
@@ -217,8 +217,8 @@ To run this project using a local IDE, for example VSCode, follow these steps to
 
 ### Code
 
-Fog overlay on all pages adapted from: https://github.com/WebDevSHORTS/Fog-Overlay-Animation
-[CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+* Fog overlay on all pages adapted from: https://github.com/WebDevSHORTS/Fog-Overlay-Animation
+* [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 
 ### Imagery
 
