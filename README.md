@@ -80,10 +80,10 @@ The following colours have been used in the creation of the site.
 
 ### Current features
 
-* Opening page with bats flying across title page with fog in background.
+* Opening page with bats flying across the title page with fog in background.
 * Castle foreground on 1st page with Bats on screen and spooky fog lights for castle.
 * Witch on a broomstick with cat and big moon on the 2nd page.
-* Skeleton adorned in flowers and gravestones in the background on 3rd page.
+* Skeleton adorned in flowers and gravestones in the background on the 3rd page.
 
 
 ## Technologies 
@@ -140,22 +140,22 @@ The site was tested across multiple browsers and device types, with no cross-bro
     * Firefox (Windows, macOS)
     * Samsung Browser (Android)
 
-The site is mostly responsive across a wide range of device sizes. The fog overly does not scale to cover the entire viewport height on smaller screen sizes, so gaps in the fog are present at the top and bottom of each site section. A fix may be implemented for this in future, but for now it is a known issue due to time constraints. However, this issue does not detract for the story's immersiveness.
+The site is mostly responsive across a wide range of device sizes. The fog overlay does not scale to cover the entire viewport height on smaller screen sizes, so gaps in the fog are present at the top and bottom of each site section. A fix may be implemented for this in future, but for now it is a known issue due to time constraints. However, this issue does not detract from the story's immersiveness.
 
 ### Manual Testing
 
 Manual testing was performed on the following elements that appear on all sections of the site, to ensure all are working as expected;
 
-* Fog: overly images appear and animate on all page where implemented.
+* Fog: overly images appear and animate on all pages where implemented.
 
 
 #### Title Page:
 * Animated bats spawn and flutter across the screen as expected.
-* Interactive Owl displays text and plays hooting sound effect on click as expected.
-* "Begin Story" button scrolls to next section on page and plays evil laugh sound effect as expected.
+* Interactive Owl displays text and plays hooting sound effects on click as expected.
+* "Begin Story" button scrolls to the next section and plays evil laugh sound effect as expected.
 
 #### Story Section 1:
-* Witch animation triggers transition across screen and plays cackle sound effect.
+* Witch animation triggers transition across the screen and plays cackle sound effect.
 * "Next Page" button scrolls to the next section of the story.
 
 #### Story Section 2:
@@ -170,7 +170,7 @@ Manual testing was performed on the following elements that appear on all sectio
 
 #### Story Section 4:
 * Mouse enter & leave events on monster graphic magnify & shrink monster as expected.
-* "About the Creators" button scrolls to "About Us" section and plays "Happy Halloween" sound effect when clicked.
+* "About the Creators" button scrolls to the "About Us" section and plays "Happy Halloween" sound effect when clicked.
 
 #### About Us Section:
 * URLs for each collaborator open their GitHub profiles in a new tab.
@@ -179,7 +179,7 @@ Manual testing was performed on the following elements that appear on all sectio
 ## Deployment 
 
 The website was deployed to Github pages via the following steps.
-1. Log in to Github and locate the websites repository.
+1. Log in to Github and locate the website's repository.
 2. Under the repository name click on settings on the top right of the menu.
 3. Under the source section select the dropdown 'None' and Master branch.
 4. The page will automatically refresh.
