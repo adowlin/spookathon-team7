@@ -35,7 +35,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -60,6 +60,10 @@ body {
 #page-four {
     grid-area: 5 / 1 / 6 / 2;
 } 
+
+#about-us-page {
+    grid-area: 6 / 1 / 7 / 2;
+}
 
 /* End CSS Grid Definitions */
 
@@ -119,7 +123,7 @@ body {
 
 /* All Pages Art */
 
-#art-ground  {
+.art-ground  {
     width: 100%;
     bottom: 0;
     z-index: 5000;
@@ -220,22 +224,28 @@ body {
 /* Page 2 Art */
 
 #page-two-art-witch_and_cat {
-    bottom: 1%;
+    bottom: 10%;
     right: 0;
     z-index: 10;
     height: 25%;
+    transform: rotate(35deg);
 }
 
 #page-two-art-new_moon {
-    bottom: 5%;
+    pointer-events: auto;
+    bottom: 40%;
     left: 10%;
     z-index: 10;
-    height: 20%;
+    height: 50%;
 }
 
 /* End of Page 2 Art */
 
 /* Page 3 Art */
+
+#page-three-text {
+    pointer-events: auto;
+}
 
 #page-three-art-sky,
 #page-three-art-graves {
@@ -280,25 +290,17 @@ body {
     top: -100px;
 }
 
-.art-container #ground-monster {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
 
 
 /* classess to make Monster bigger */
 
-/* base postion */
+/* base position */
 
 .art-container #monster {
     position: absolute;
     right: 0;
-    top: 300px;
+    bottom: 50px;
     pointer-events: auto;
-}
-.test {
-    background-color: red;
 }
 
 .small-monster {
@@ -310,6 +312,7 @@ body {
     transform: scale(2.5);
 
 }
+
 
 /* end of art page 4 */
 
@@ -337,7 +340,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: -130px;
-        top: 0;
+        bottom: 10px;
     }
 }
 
@@ -345,7 +348,6 @@ body {
     .art-container #monster {
         position: absolute;
         right: -90px;
-        top: 0;
     }
 }
 
@@ -353,7 +355,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: -50px;
-        top: 0;
+        bottom: 10px;
     }
 }
 
@@ -361,7 +363,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: 0px;
-        top: 0;
+        bottom: 10px;
     }
 }
 
@@ -369,7 +371,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: 50px;
-        top: 0;
+        bottom: 30px;
     }
 }
 
@@ -378,7 +380,6 @@ body {
     .art-container #monster {
         position: absolute;
         right: 0;
-        top: 400px;
     }
 }
 
@@ -493,11 +494,11 @@ body {
 }
 
 .move-left {
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
+    transform: translateX(100%) translateY(50%);
+    -webkit-transform: translateX(100%) translateY(50%);
+    -moz-transform: translateX(100%) translateY(50%);
+    -ms-transform: translateX(100%) translateY(50%);
+    -o-transform: translateX(100%) translateY(50%);
 }
 
 .move-left.appear {
@@ -513,11 +514,11 @@ body {
     0% {
     }
     100% {
-        transform: translateX(-100vw);
-        -webkit-transform: translateX(-100vw);
-        -moz-transform: translateX(-100vw);
-        -ms-transform: translateX(-100vw);
-        -o-transform: translateX(-100vw);
+        transform: translateX(-100vw) translateY(-40vw);
+        -webkit-transform: translateX(-100vw) translateY(-40vw);
+        -moz-transform: translateX(-100vw) translateY(-40vw);
+        -ms-transform: translateX(-100vw) translateY(-40vw);
+        -o-transform: translateX(-100vw) translateY(-40vw);
     }
 }
 

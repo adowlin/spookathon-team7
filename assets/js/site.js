@@ -87,16 +87,41 @@ function witchAnimate() {
 }
 
 // Function for "Begin Story" audio
-function beginAudio() {
+function laughAudio() {
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/evil-male-horror-laugh-7/)
     let audioLaugh = new Audio("assets/audio/evil-laugh.mp3");
     audioLaugh.play();
+}
+
+// Function for page 2 moon click audio
+function moonAudio() {
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/werewolf-howls-distant-1/)
+    let audioHowl = new Audio("assets/audio/werewolf-howl.mp3");
+    audioHowl.play();
+}
+
+// Function for page 3 text mouseover audio
+function textAudio() {
+    // Play audio on click. Sound effect obtained from https://www.freesoundeffects.com/free-track/haunting-466386/
+    let audioHaunting = new Audio("assets/audio/haunting.mp3");
+    audioHaunting.play();
+}
+
+// Function for back to top click audio
+function endAudio() {
+    // Play audio on click. Sound effect obtained from https://www.zapsplat.com (https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/)
+    let audioEnd = new Audio("assets/audio/happyhalloween.mp3");
+    audioEnd.play();
 }
 
 // Run functions when the page has loaded.
 window.addEventListener('load',function(){
     document.getElementById("title-page-art-owl").addEventListener("click", owlAction, false);
+    document.getElementById("title-page-button").addEventListener("click", laughAudio);
     document.getElementById("page-one-art-witch").addEventListener("click", witchAnimate);
-    document.getElementById("title-page-button").addEventListener("click", beginAudio);
+    document.getElementById("page-two-art-new_moon").addEventListener("click", moonAudio);
+    document.getElementById("page-three-text").addEventListener("mouseover", textAudio);
+    document.getElementById("page-four-button").addEventListener("click", endAudio);
     addBats(3);
     setInterval(batFlutter, 50);
     
