@@ -315,6 +315,8 @@ body {
 /* base position */
 
 .art-container #monster {
+    width: auto;
+    height: 500px;
     position: absolute;
     right: 0;
     bottom: 50px;

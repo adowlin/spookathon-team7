@@ -167,17 +167,17 @@ Images are a combination of graphics generated in [Canva](https://www.canva.com/
 
 ### Typography
 
-MrMonstar font downloaded from: https://www.fontspace.com/mr-monstar-font-f40444
-Conter Attack font downloaded from: https://www.fontspace.com/counter-attack-font-f60802
+* MrMonstar font downloaded from: https://www.fontspace.com/mr-monstar-font-f40444
+* Counter Attack font downloaded from: https://www.fontspace.com/counter-attack-font-f60802
 
 ### Audio
 
-Sound effects obtained from [zapsplat.com](https://www.zapsplat.com) and [freesoundeffects.com](https://www.freesoundeffects.com/)
-Owl: https://www.zapsplat.com/music/owl-hoot-nighttime-1/
-Cackle: https://www.freesoundeffects.com/free-track/cackle3-466439/ 
-Evil Laugh: https://www.zapsplat.com/music/evil-male-horror-laugh-7/
-Howling: https://www.zapsplat.com/music/werewolf-howls-distant-1/
-Happy Halloween: https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/
-Spooky Voice: https://www.freesoundeffects.com/free-track/haunting-466386/
+* Sound effects obtained from [zapsplat.com](https://www.zapsplat.com) and [freesoundeffects.com](https://www.freesoundeffects.com/)
+* Owl: https://www.zapsplat.com/music/owl-hoot-nighttime-1/
+* Cackle: https://www.freesoundeffects.com/free-track/cackle3-466439/ 
+* Evil Laugh: https://www.zapsplat.com/music/evil-male-horror-laugh-7/
+* Howling: https://www.zapsplat.com/music/werewolf-howls-distant-1/
+* Happy Halloween: https://www.zapsplat.com/music/male-voice-creepy-with-reversed-reverb-says-happy-halloween-2/
+* Spooky Voice: https://www.freesoundeffects.com/free-track/haunting-466386/
 
 ## Acknowledgements
