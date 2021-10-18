@@ -115,14 +115,8 @@ Page4: Monster, chains, can re-use my bats
 * [Inscape](https://inkscape.org/)
 * [adobe spark](https://spark.adobe.com/sp/)
 
-
-
-<<<<<<< HEAD
 ## Languages
 
-=======
-**Languages**
->>>>>>> 60f256be589230bdf3e26aca8dd49f7067c46de5
 • HTML
 • CSS
 • Javascript
