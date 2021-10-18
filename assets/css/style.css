@@ -292,7 +292,7 @@ body {
 .art-container #monster {
     position: absolute;
     right: 0;
-    top: 300px;
+    bottom: 50px;
     pointer-events: auto;
 }
 
@@ -332,7 +332,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: -130px;
-        top: 0;
+        bottom: 10px;
     }
 }
 
@@ -340,7 +340,6 @@ body {
     .art-container #monster {
         position: absolute;
         right: -90px;
-        top: 0;
     }
 }
 
@@ -348,7 +347,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: -50px;
-        top: 0;
+        bottom: 10px;
     }
 }
 
@@ -356,7 +355,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: 0px;
-        top: 0;
+        bottom: 10px;
     }
 }
 
@@ -364,7 +363,7 @@ body {
     .art-container #monster {
         position: absolute;
         right: 50px;
-        top: 0;
+        bottom: 30px;
     }
 }
 
@@ -373,7 +372,6 @@ body {
     .art-container #monster {
         position: absolute;
         right: 0;
-        top: 400px;
     }
 }
 
